@@ -1,0 +1,26 @@
+           < Vending  Machine >
+
+
+      |   1   |     2    |      3     |
+   ___|_______|__________|____________|
+    A | Pepsi |   Cola   |   Fanta    |
+   ---|-------|----------|------------|
+    B | Lays  | Doritos  | Hzor Chips |
+   ---|-------|----------|------------|
+    C | Mars  | Snickers |   Bounty   |
+   ___|_______|__________|____________|
+
+Input type and meaning:
+A:2     - Cola
+B:3     - Hzor Chips
+each time machine gives 1 product.
+
+need to have below class'es, properties and methods:
+    1. <Input>  with Scanner input
+    2. <Converter>
+            char row;
+            int column;
+            command();
+    3. <VendingMachine>
+            getProducts();
+            printBoard();
